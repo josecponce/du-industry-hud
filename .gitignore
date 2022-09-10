@@ -1,0 +1,9 @@
+out/*
+!out/development
+out/development/*
+!out/development/industry-hud-master.json
+!out/development/industry-hud-control.json
+
+*.iml
+/.idea/
+src/du_lib

@@ -1,0 +1,74 @@
+{
+  "cli": {
+    "fmtVersion": 2
+  },
+  "name": "du-industry-hud",
+  "description": "",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "industry-hud-master": {
+      "name": "industry-hud-master",
+      "type": "control",
+      "slots": {
+        "core": {
+          "name": "core",
+          "type": "core"
+        },
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        }
+      }
+    },
+    "industry-hud-control": {
+      "name": "industry-hud-control",
+      "type": "control",
+      "slots": {
+        "switch": {
+          "name": "switch",
+          "type": null
+        },
+        "receiverControl": {
+          "name": "receiverControl",
+          "type": "receiver"
+        },
+        "industry1": {
+          "name": "industry1",
+          "type": "industry"
+        },
+        "industry2": {
+          "name": "industry2",
+          "type": "industry"
+        },
+        "industry3": {
+          "name": "industry3",
+          "type": "industry"
+        },
+        "industry4": {
+          "name": "industry5",
+          "type": "industry"
+        },
+        "industry6": {
+          "name": "industry6",
+          "type": "industry"
+        },
+        "industry7": {
+          "name": "industry7",
+          "type": "industry"
+        },
+        "industry8": {
+          "name": "industry8",
+          "type": "industry"
+        }
+      }
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    }
+  }
+}
