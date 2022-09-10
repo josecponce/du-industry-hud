@@ -88,7 +88,7 @@ Repeat for every 8 Industries:
   - Containers: `<prefix>_<itemId>`
   - Hubs: `<prefix>_<itemId>_<containserSize>_<amountOfContainers>`
 - Where:
-  - `<prefix>`: the prefix that enable monitoring, by default MONIT, see options to customize it
+  - `<prefix>`: a prefix that identifies a logical group of items. can be basically anything you want.
   - `<itemId>`: The ID of the item in the game database, you can search the ID of item here: https://du-lua.dev/#/items
   - `<containerSize>`: if a hub, the size of the containers linked (default to XS), valid options are xs, s, m, l, xl, xxl
   - `<amountOfContainers>`: if a hub, the amount of containers linked
