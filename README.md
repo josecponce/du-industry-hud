@@ -11,20 +11,20 @@
 - This also uses more parts (receivers/switches/etc) than the original and is more complex to setup.
 
 ## Features
-- General Industry Info: 
+- **General Industry Info**:
   - Displays status information per industry type for all industries on the construct.
   - Navigate industry groups/types using Ctrl + Up/Down.
   - Navigate industries using Up/Down/Left/Right.
   - Navigate to industry group/type that builds the industry element used in the current row: Alt + Left
   - Navigate to industry group/type that contains industries being produced by the current row: Alt + Right
     - Only when output of current row is an industry element.
-- Industry Markers/Stickers: Markers are displayed around the selected industry element to make it easier to find.
-- Show/Hide Hud: Alt + 2. Also, useful to avoid key presses to be interpreted by the Hud.
-- Industry Output Recipe Containers/Hubs:
+- **Industry Markers/Stickers**: Markers are displayed around the selected industry element to make it easier to find.
+- **Show/Hide Hud**: Alt + 2. Also, useful to avoid key presses to be interpreted by the Hud.
+- **Industry Output Recipe Containers/Hubs**:
   - Displays total quantity of the output element for every industry in the "General Industry Info" table.
-  - Show/Hide Input/Output containers AR: Alt + 3. Highlights input and out containers/hubs for the output of the currently selected industry.
+  - Show/Hide Input/Output containers AR: Alt + 3. Highlights input and output containers/hubs for the output of the currently selected industry.
   - These features only work if additional instructions to follow containers/hubs naming convention were followed.
-- Control:
+- **Control**:
   - Issue a Command:
     - Select industry in "General Industry Info" table.
     - Press Alt + Down. Prompt should appear in lua console.
@@ -85,13 +85,13 @@ Repeat for every 8 Industries:
 ### Rename Containers/Hubs (Optional)
 - Works only for single item containers/hubs.
 - Rename all containers/hubs as follows:
-  - Containers: <prefix>_<itemId>
-  - Hubs: <prefix>_<itemId>_<containserSize>_<amountOfContainers>
+  - Containers: `<prefix>_<itemId>`
+  - Hubs: `<prefix>_<itemId>_<containserSize>_<amountOfContainers>`
 - Where:
-  - <prefix>: the prefix that enable monitoring, by default MONIT, see options to customize it
-  - <itemId>: The ID of the item in the game database, you can search the ID of item here: https://du-lua.dev/#/items
-  - <containerSize>: if a hub, the size of the containers linked (default to XS), valid options are xs, s, m, l, xl, xxl
-  - <amountOfContainers>: if a hub, the amount of containers linked
+  - `<prefix>`: the prefix that enable monitoring, by default MONIT, see options to customize it
+  - `<itemId>`: The ID of the item in the game database, you can search the ID of item here: https://du-lua.dev/#/items
+  - `<containerSize>`: if a hub, the size of the containers linked (default to XS), valid options are xs, s, m, l, xl, xxl
+  - `<amountOfContainers>`: if a hub, the amount of containers linked
 
 ## Developer Notes
 ### Compile Project
