@@ -43,7 +43,7 @@ function IndustryHudContainer.new(core, id, containerProficiencyLvl, containerOp
         local containerVolume = 0
 
         if not type:lower():find("hub") then
-            local containerMaxHP = core.getElementMaxHitPointsById(itemId)
+            local containerMaxHP = core.getElementMaxHitPointsById(id)
             if containerMaxHP > 68000 then
                 containerSize = "XXL"
                 containerEmptyMass = 88410
